@@ -1,6 +1,4 @@
-# alx_html_css
-
-# CSS Basics – ALX Frontend Project
+# CSS Basics – ALX Frontend Project - alx_html_css
 
 This project introduces basic concepts of **CSS (Cascading Style Sheets)**. It builds upon the HTML structure from the previous project [[`html_basic`](https://github.com/ArchieK9/My_First_Portfolio)] and applies styling to improve the appearance of the web pages.
 
