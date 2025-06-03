@@ -45,3 +45,51 @@ The following HTML structure was targeted for styling:
   - `<footer>`
 
 ---
+
+# CSS Basic Layout and Styling Project
+
+This project is part of the **ALX Frontend** curriculum. The goal is to apply fundamental CSS concepts, including Flexbox layout and basic styling.
+
+---
+
+## ✅ Tasks Completed
+
+### 1. Layout Structure Using Flexbox
+
+- Used `<body>` and `<main>` as Flexbox containers.
+- Applied the following rules in `styles.css`:
+  - `display: flex` on `<body>` and `<main>`.
+  - `flex-direction: column` on `<body>` to stack `<header>`, `<main>`, and `<footer>`.
+  - `flex-direction: row` on `<main>` to align `<article>` and `<aside>` side-by-side.
+  - `flex: auto` on `<main>` to allow it to grow and shrink as needed.
+  - `flex: 2` on `<article>` and `flex: 1` on `<aside>` to control width ratio (2:1).
+  - `overflow-y: auto` on both `<article>` and `<aside>` to enable scrolling.
+
+---
+
+### 2. Styling and Customization
+
+- Created and edited `styles.css` to include custom non-positioning styles such as:
+  - Backgrounds
+  - Colors
+  - Borders
+- Applied custom styles specifically within the `<article>` tag as permitted.
+
+---
+
+### 3. Logo Addition
+
+- Added a Unicode character as a **logo** to the top-left of the page.
+  - Inserted it as the **first list item** in the `<header>`.
+  - Used a character from [Unicode Symbol Table](https://symbl.cc/en/unicode-table/).
+  - Applied the `class="logo"` to style it larger and distinct.
+
+---
+
+## 🚫 Restrictions Followed
+
+- Did **not** change the Flexbox layout logic.
+- Did **not** use absolute or fixed positioning outside of the `<article>`.
+- Focused only on customizing styles within the allowed scope.
+
+---
