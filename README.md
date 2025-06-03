@@ -28,14 +28,15 @@ This project introduces basic concepts of **CSS (Cascading Style Sheets)**. It b
 <link href="base.css" rel="stylesheet">
 <link href="styles.css" rel="stylesheet">
 
+```
 
-# CSS Flexbox Layout – ALX Frontend Project
+## Flexbox Layout – ALX Frontend Project
 
 This part of the project focuses on using **CSS Flexbox** to organize HTML page structure effectively. It enhances the visual layout of the webpage by arranging content using flexible containers and directional flows.
 
 ---
 
-## ✅ Task Overview
+### ✅ Task Overview
 
 The following HTML structure was targeted for styling:
 
@@ -46,7 +47,7 @@ The following HTML structure was targeted for styling:
 
 ---
 
-# CSS Basic Layout and Styling Project
+## Basic Layout and Styling Project
 
 This project is part of the **ALX Frontend** curriculum. The goal is to apply fundamental CSS concepts, including Flexbox layout and basic styling.
 
