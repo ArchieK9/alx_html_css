@@ -15,8 +15,6 @@ The page consists of the following sections:
 - **FAQ** section
 - **Footer** with social media links
 
-## 📁 Project Structure
-
 ## 💡 Technologies Used
 
 - HTML5
@@ -29,16 +27,3 @@ The page consists of the following sections:
 - Reusable components (cards, testimonial, FAQ)
 - Smooth typography and vibrant buttons
 - Accessibility-focused structure
-
-## 🚀 Getting Started
-
-1. Clone the repo or download the files.
-2. Ensure all image assets are placed in an `images/` folder.
-3. Open `index.html` in your browser.
-4. Customize as needed!
-
-## 📌 Future Enhancements
-
-- Add animations (e.g., hover effects)
-- Use JavaScript for FAQ accordion
-- Add video functionality for tutorials
