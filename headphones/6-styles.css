@@ -1,0 +1,317 @@
+/*
+Heading paddings: 27.76px top, 0px bottom, 200.00px left, 0px right;(Desktop)
+Main part paddings:372px top, 0px bottom, 382px left, 0px right;(Desktop)
+
+Button colors: #FF6565, #ffffff (white)
+
+Part 1 paddings: 382px left, 910px top, 0px bottom, 0px right;(Desktop)
+Part 2 paddings: 200px left, 0px top, 0px bottom, 0px right;(Desktop)
+
+Contact us width: 335px;
+Footer background color: #071629;
+social links spacing: 20px;
+
+*/
+
+:root{
+    --heading-padding-top: 27.76px;
+    --heading-padding-bottom: 0px;
+    --heading-padding-left: 200px;
+    --heading-padding-right: 0px;
+    
+    --main-padding-top: 372px;
+    --main-padding-bottom: 0px;
+    --main-padding-left: 382px;
+    --main-padding-right: 0px;
+    
+    --button-color: #FF6565;
+    --button-text-color: #ffffff;
+    --link-hover:#FF6565;
+    --button-hover-opacity: 0.9;
+    
+    --part1-padding-left: 382px;
+    --part1-padding-top: 910px;
+    --part1-padding-bottom: 0px;
+    --part1-padding-right: 0px;
+    
+    --part2-padding-left: 200px;
+    --part2-padding-top: 0px;
+    --part2-padding-bottom: 0px;
+    --part2-padding-right: 0px;
+    
+    --contact-width: 335px;
+    
+    --footer-background-color: #071629;
+}
+
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+header {
+    padding-top: 27.76px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-image: url(./images/headphones_hero_1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-position-y: top; */
+    text-align: center;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo > img{
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    color: var(--button-text-color);
+}
+
+.nav-links>a:hover{
+    color: var(--link-hover);
+    transition: .3s ease;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hero{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 5rem;
+    color: #ffffff;
+    line-height: 1.5;
+    padding: 0 27.5rem;
+    padding-bottom: 0;
+}
+
+button{
+    border: none;
+    padding: 0.8rem 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background-color: var(--button-color);
+    margin: 2rem 0 5rem;
+}
+
+button>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+button:hover{
+    opacity: var(--button-hover-opacity);
+    cursor: pointer;
+}
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.write-up{
+    padding: 5rem 25rem;
+    line-height: 1.5;
+}
+
+.features{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7.5rem;
+}
+
+.feature{
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 100%;
+    gap: 1rem;
+}
+
+.feature>img{
+    width: 20%;
+}
+
+.feature>img:nth-of-type(1), .feature>img:nth-of-type(4){
+    width: 30%;
+}
+
+.our-results{
+    height: 100vh;
+    background-image: url(./images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 5rem 0 2rem;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.write-up-2{
+    padding: 5rem 25rem;
+    padding-top: 0;
+    line-height: 1.5;
+}
+
+.pentagon-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.pentagon {
+  background-color: #f46f7c;
+  color: white;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.pentagon b{
+    font-size: 2rem;
+}
+
+.pentagon span {
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+
+.contact{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 20%;
+}
+
+form input, textarea{
+    height: 5vh;
+    border: none;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+form button{
+    margin: 0;
+}
+
+
+footer{
+    background-color: var(--footer-background-color);
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.logo>img{
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    header{
+        
+    }
+}
+
+
+
+@media (max-width:768px) {
+    header{
+        background-image: url(./images/tab-background.png);
+    }
+
+
+}
+
+@media (max-width:425px) {
+    header{
+        background-image: url(./images/mobile-background.png);
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-links{
+        display: none;
+    }
+}
