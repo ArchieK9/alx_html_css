@@ -1,40 +1,52 @@
 # 🎧 Headphones Landing Page
 
-A responsive landing page for a fictional headphone brand, built with **pure HTML and CSS**. This project is based on provided UI designs for **desktop**, **tablet**, and **mobile** breakpoints.
+This project is a fully responsive landing page for a fictional headphone brand, built using **pure HTML, CSS, and JavaScript**. It’s part of the ALX Frontend curriculum.
 
-## 🔍 Live Preview
+## 📁 Project Structure
 
-[🔗 View Demo](#) 
+The project progresses through 9 milestones, building up the UI and interactivity step-by-step:
 
-## 🛠️ Technologies Used
+| Task | Description |
+|------|-------------|
+| `0-index.html/css` | Header + Hero section |
+| `1-index.html/css` | "What we do" section with icons |
+| `2-index.html/css` | "Our results" section |
+| `3-index.html/css` | Contact form |
+| `4-index.html/css` | Footer |
+| `6-index.html/css` | Replace results background with CSS pentagons |
+| `7-index.html/css` | Animations added |
+| `8-index.html/css/js` | Responsive hamburger menu |
+
+## 🌐 Responsive Design
+
+- Mobile-first layout
+- Desktop, Tablet & Mobile breakpoints
+- Flexbox layout system
+- Hamburger menu for screens ≤ 480px
+
+## 🛠 Tech Stack
 
 - HTML5
-- CSS3 (Flexbox + Media Queries)
-- Responsive Web Design Principles
-- Mobile-First Approach
-
-## 📱 Responsive Layout
-
-The layout has been optimized for:
-- **Mobile (up to 480px)**
-- **Tablet (481px to 768px)**
-- **Desktop (769px and above)**
-
-## 💡 Features
-
-- Modern layout with a clean hero section
-- "What we do" feature icons
-- Results metrics section
-- Contact form section
-- Fully responsive design across all major device sizes
+- CSS3 (custom variables, transitions, flexbox)
+- JavaScript (vanilla, for the hamburger menu)
 
 ## 📸 Screenshots
 
-### Desktop
-![Desktop Design](./01_headphones_desktop@2x.png)
+Include responsive previews of:
+- Desktop
+- Tablet
+- Mobile
 
-### Tablet
-![Tablet Design](./01_headphones_tablet@2x.png)
+## 🎨 Highlights
 
-### Mobile
-![Mobile Design](./01_headphones_mobile@2x.png)
+- Custom icon font
+- CSS-only pentagon drawing
+- Smooth UI animations
+- Contact form (ready for validation)
+
+## 🚀 Setup
+
+```bash
+git clone https://github.com/yourusername/alx_html_css.git
+cd headphones
+open 8-index.html
